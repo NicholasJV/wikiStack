@@ -1,0 +1,38 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "wikistack!",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^2.10.1",
+    "body-parser": "^1.14.1",
+    "chai": "^3.3.0",
+    "chai-as-promised": "^5.1.0",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "mongoose": "^4.1.9",
+    "morgan": "^1.6.1",
+    "nodemon": "^1.7.1",
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "nodemon": "^1.7.1"
+  },
+  "scripts": {
+    "start": "nodemon -e html,js,css ./app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasJV/wikistack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasJV/wikistack/issues"
+  },
+  "homepage": "https://github.com/NicholasJV/wikistack#readme"
+}
